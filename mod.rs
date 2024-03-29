@@ -98,5 +98,7 @@ pub mod StoreKit;
 pub mod UniformTypeIdentifiers;
 #[cfg(feature = "UserNotifications")]
 pub mod UserNotifications;
+#[cfg(feature = "Virtualization")]
+pub mod Virtualization;
 #[cfg(feature = "WebKit")]
 pub mod WebKit;
